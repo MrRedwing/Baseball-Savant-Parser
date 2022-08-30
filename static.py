@@ -18,7 +18,7 @@ def savant_site_static(url, batter=True, sort_type='basic'):
 
         # Start chrome browser and retrieve web page
     chrome_options = Options()
-    # chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless")
 
     download_location = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
     prefs = {"download.default_directory":download_location}

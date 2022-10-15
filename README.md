@@ -11,3 +11,6 @@ Required Python packages
 * Selenium (with Chrome webdriver)
 * Pandas
 * Time
+
+Command line python main.py
+Copy and paste Baseball Savant Page
